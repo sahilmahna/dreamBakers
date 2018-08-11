@@ -1,0 +1,165 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>uiCookies:Pixels — Free Bootstrap Theme, Free Responsive Bootstrap Website Template</title>
+    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Rubik:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+
+<header role="banner" class="probootstrap-header">
+    <div class="container">
+        <a (click)="onView('/')" class="probootstrap-logo">TDB<span></span></a>
+
+        <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+            <ul class="probootstrap-main-nav">
+                <li class="active"><a (click)="onView('/')">Home</a></li>
+                <li><a (click)="onView('/about')">About</a></li>
+                <li><a (click)="onView('/portfolio')">Portfolio</a></li>
+                <li><a (click)="onView('/contact')">Contact</a></li>
+            </ul>
+            <div class="extra-text visible-xs">
+                <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+                <h5>Connect</h5>
+                <ul class="social-buttons">
+                    <li><a href="#"><i class="icon-youtube"></i></a></li>
+                    <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li><a href="#"><i class="icon-instagram2"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+</header>
+
+
+<div class="header-nightsky_zzzz" style="    padding-bottom: 0%;overflow: hidden;">
+    <!-- <div class="header-nightsky">
+    <nav class="navbar navbar-default" style="    padding-bottom: 0%;
+    padding-top: 0%;">
+        <div class="container">
+            <img style="width: 9%;margin-left: -26%; margin-top: 18px;" src=".,/../../../assets/images/logo_burned.png">
+            <a class="navbar-brand" (click)="OnClick('/')" style="cursor: pointer;color:white; margin-right: -8px;">CHHABRA<br>
+                <h5 style="margin-left: 20%;font-family: cursive;">LIGHT HOUSE</h5>
+                </a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" style="margin-top: -7%;">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">HOME</a></li>
+                    <li>
+                        <a class="dropdown-toggle" (click)="OnClick('locks')" style="cursor: pointer;" data-toggle="dropdown">LOCKS/KEYS </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" (click)="OnClick('stove')" data-toggle="dropdown" href="#">GAS STOVE <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">TORCH'S <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">DEMOS<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav> 
+</div> -->
+
+
+
+    <div class="appStyle">
+        <router-outlet></router-outlet>
+    </div>
+
+    <div class="probootstrap-footer-spacer"></div>
+    <footer class="probootstrap-footer">
+        <div class="probootstrap-footer-section" style="    background: #948f7f;">
+            <div class="container">
+                <div class="row mb80">
+                    <div class="col-md-4">
+                        <div class="probootstrap-footer-widget">
+                            <h3>About Us</h3>
+                            <p>Here in Dream bakers, we put our souls to turn your and our dreams into reality. Founded by Ravinder Singh alias RD Singh in the year 2016.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="probootstrap-link-wrap probootstrap-footer-widget">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a>Fashion events</a></li>
+                                <li><a>Reality shows</a></li>
+                                <li><a>Web series</a></li>
+                                <li><a>Short movies</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="probootstrap-footer-widget">
+                            <h3>Connect with us</h3>
+                            <ul class="probootstrap-footer-social">
+                                <li><a (click)="onSite('https://www.youtube.com/channel/UCgApiBz3GES1tNVs6exhdKA')"><i style="    color: #881616;"class="icon-youtube"></i></a></li>
+                                <li><a (click)="onSite('https://www.instagram.com/rd_singhofficial_/?hl=en')"><i style="color: #122b5d;" class="icon-facebook"></i></a></li>
+                                <li><a (click)="onSite('https://www.instagram.com/faceofvadodara_official/?hl=en')"><i style="    color: #821414;" class="icon-instagram"></i></a></li>
+                                <li><a (click)="onSite('https://www.instagram.com/rd_singhofficial_/?hl=en')"><i style="    color: #96172d;"class="icon-instagram2"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="text-center">© uiCookies:Pixels. Designed w/ <i class="icon-heart2"></i> by <a href="https://uicookies.com/">uicookies.com</a> <br> Demo Images by Unsplash.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer-->
+
+    <!--/.Footer-->
+
+
+</div>
+
+<div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
